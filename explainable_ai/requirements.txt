@@ -1,0 +1,4 @@
+groq
+python-dotenv
+cerebras_cloud_sdk
+google-generativeai

@@ -1,0 +1,64 @@
+{
+  "engine_id": "ROTAX914_001",
+  "timestamp": "2026-09-08T12:30:45Z",
+
+  "operating_conditions": {
+    "rpm": 5800,
+    "throttle_percent": 65,
+    "altitude_ft": 10000,
+    "ambient_temperature_c": 32,
+    "engine_load_percent": 68
+  },
+
+  "actual_parameters": {
+    "egt_c": 735,
+    "cht_c": 165,
+    "oil_pressure_bar": 4.2,
+    "oil_temperature_c": 95,
+    "fuel_flow_lph": 18.5,
+    "vibration_g": 0.32
+  },
+
+  "physics_model_expected": {
+    "egt_c": 710,
+    "cht_c": 151,
+    "oil_pressure_bar": 4.5,
+    "oil_temperature_c": 87,
+    "fuel_flow_lph": 17.8,
+    "vibration_g": 0.22
+  },
+
+  "residuals": {
+    "egt_c": 25,
+    "cht_c": 14,
+    "oil_pressure_bar": -0.3,
+    "oil_temperature_c": 8,
+    "fuel_flow_lph": 0.7,
+    "vibration_g": 0.10
+  },
+
+  "physics_health_assessment": {
+    "health_index": 77,
+    "status": "DEGRADED",
+    "degradation_trend": "INCREASING"
+  },
+
+  "physics_anomaly_indicators": {
+    "temperature_anomaly": true,
+    "oil_pressure_anomaly": true,
+    "fuel_flow_anomaly": true,
+    "vibration_anomaly": true
+  },
+
+  "probable_affected_regions": [
+    "fuel_combustion_system",
+    "cylinder_region",
+    "cooling_system"
+  ],
+
+  "physics_model_summary": {
+    "overall_condition": "Engine parameters show persistent deviation from expected physics-model behaviour.",
+    "primary_concern": "Elevated EGT and CHT with increased fuel flow and vibration.",
+    "severity": "MEDIUM"
+  }
+}

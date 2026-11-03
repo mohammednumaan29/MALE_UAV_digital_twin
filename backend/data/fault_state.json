@@ -1,0 +1,6 @@
+{
+  "active_fault": "OVERHEATING",
+  "target_severity": 0.5,
+  "target_severity_pct": 50.0,
+  "timestamp": "2026-11-03T03:21:22.544595+00:00"
+}
